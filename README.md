@@ -1,6 +1,8 @@
 # TarkMap
 TarkMap is an unfinished but functional PoC that translates Escape from Tarkov screenshots into a live position on a map image. When you take a screenshot in EFT, the filename encodes your player coordinates and facing quaternion. TarkMap parses that filename, converts it to pixel coordinates, and displays your current position and facing direction on a map in real time.
 
+![example](https://files.catbox.moe/wzlps9.gif)
+
 # Requirements
 - Python 3.8+
 - [Pillow](https://pypi.org/project/pillow/)
